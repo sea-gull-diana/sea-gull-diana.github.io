@@ -19,6 +19,11 @@ https://github.com/givanz/VvvebJs
 body {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
 
+.myproject {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
 #logo {
   margin-left: 100px;
   margin-top: 8px; }
