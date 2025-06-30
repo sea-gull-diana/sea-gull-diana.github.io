@@ -18,7 +18,7 @@
 
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="text-decoration-color: rgb(252, 167, 49);">
-        <a class="navbar-brand" href="#">Dziyana Tsetserava - Open Source Contributions</a>
+        <a class="navbar-brand" href="#">My Open Source Contributions</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,15 +44,36 @@
 
     <main role="main" style="text-decoration-color: rgb(255, 146, 56);">
       <div class="container marketing" id="projects">
+
+        <h1>My Open Source Contributions</h1>
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="images/sagemath.svg" alt="sagemath logo" width="140" height="140">
+            <h2>JS_Sage_Graph</h2>
+            <p>Project realized during my studies at UIT Montpellier. Creation of a graphical interface for graph manipulation for a popular mathematical application SageMath. Programming languages ​​used: JavaScript and Python.</p>
+            <p><a class="btn btn-secondary" href="./index.html#jssagegraph" role="button">See details »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="images/argocd.png" alt="argocd logo" width="140" height="140">
+            <h2>ArgoCD UI improvements</h2>
+            <p>A pull request that makes minor improvements to ArgoCD interface (natural sorting order and login autocomplete).</p>
+            <p><a class="btn btn-secondary" href="./index.html#argocd" role="button">See details »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="images/sonarqube.png" alt="sonarqube logo" width="140" height="140">
+            <h2>Sonarqube Helm chart</h2>
+            <p>A pull request that allows users to keep plugins installed via marketplace when persistence is activated, even if some plugins are being added via helm values.</p>
+            <p><a class="btn btn-secondary" href="./index.html#sonarqube" role="button">See details »</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
         <!-- START THE FEATURETTES -->
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="jssagegraph">
 
-        <h1 class="featurette-heading">My Open Source Contributions</h1>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette" id="jssagegraph">
+        <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">Sage Graphs Editor</h2>
             <p class="lead" spellcheck="false" data-ms-editor="true">
@@ -70,7 +91,7 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="argocd">
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
@@ -105,7 +126,7 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="sonarqube">
 
         <div class="row featurette">
           <div class="col-md-7">
